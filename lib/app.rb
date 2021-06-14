@@ -14,7 +14,7 @@ get '/baba' do
 end
 
 get '/cat' do
-  "<div>
+  "<div style ='border: 3px dashed blue'>
   <img src='https://i.imgur.com/jFaSxym.png'>
   </div>"
 end
