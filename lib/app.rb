@@ -21,5 +21,5 @@ end
 get '/named-cat' do
   p params
   @name = params[:name]
-  erb :index
+  erb(:cat_form)
 end
