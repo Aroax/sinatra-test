@@ -10,4 +10,5 @@ group :development, :test do
   gem "rspec", :require => true
   gem "sinatra", :require => true
   gem "webrick", :require => true
+  gem "sinatra-contrib", :require => true
 end
